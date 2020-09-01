@@ -9,7 +9,7 @@ value into a Secrets Manager secret.
 
 ```hcl-terraform
 module "example" {
-  source = "git::https://github.com/TerraFlops/ec2-key-pair?ref=v1.0"
+  source = "git::https://github.com/TerraFlops/aws-ec2-key-pair?ref=v1.0"
   name = "Bastion"
   rsa_bits = 4096
   create_secret = true
